@@ -1,0 +1,13 @@
+new entry "MAG_LowHP_TemporaryHP01_Passive"
+type "PassiveData"
+data "DisplayName" "h0e4e241dgbaa3g4d82ga84egb7fc26a4d2df;2"
+data "Description" "h250dc06fg3943g40aegb8a5ga82ead6de4a5;2"
+data "StatsFunctorContext" "OnDamaged"
+data "Conditions" "not Dead() and HasHPPercentageWithoutTemporaryHPLessThan(50, context.Target) and not HasStatus('SLAYER_PLAYER') and not HasStatus('SLAYER_PLAYER_10')"
+data "StatsFunctors" "ApplyStatus(SLAYER_PLAYER,100,-1)"
+data "Icon" "Action_DarkUrge"
+
+new entry "MAG_LowHP_TemporaryHP01_Passive_10"
+type "PassiveData"
+using "MAG_LowHP_TemporaryHP01_Passive"
+data "StatsFunctors" "ApplyStatus(SLAYER_PLAYER_10,100,-1)"

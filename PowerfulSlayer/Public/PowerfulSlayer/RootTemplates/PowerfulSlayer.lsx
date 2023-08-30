@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="303" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="4d801c1a-691e-47c8-88e7-78367b4e2c8e" />
+					<attribute id="Name" type="LSString" value="PS_Potion_of_Powerful_Slaying" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="8e660fd9-489d-42ff-a762-e4392e826666" />
+					<attribute id="VisualTemplate" type="FixedString" value="abb472c0-eb24-22d6-e3cb-665c95d30c44" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d81d7c1d-ff72-a642-0433-779a99f64325" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf46b7145gd443g4d1bgb52cg4cf2ae46b508" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_CONS_Potion_Rare_A_Bronze" />
+					<attribute id="Stats" type="FixedString" value="PS_Potion_of_Powerful_Slaying" />
+					<attribute id="TreasureOnDestroy" type="bool" value="False" />
+					<attribute id="Description" type="TranslatedString" handle="h4de53859gb402g4f84gb3eagcff6fcfbacdd" version="2" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="" version="0" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="7" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="StatsId" type="FixedString" value="POTION_OF_POWERFUL_SLAYING" />
+											<attribute id="StatusDuration" type="int32" value="-1" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
