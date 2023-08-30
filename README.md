@@ -1,12 +1,6 @@
-# Toggle Tooltips And Hide Looted Containers
+# Powerful Slayer
 
-This mod is inspired by [](https://www.nexusmods.com/baldursgate3/mods/1166).
-
-There is only one main file, `Public\Game\GUI\Widgets\WorldTooltips.xaml`.
-
-There are two sections in it, one that hides thinks that you probably don't want to see.
-
-The other section hides things that are useless to me but that you might want if you are a loot collector and need the money/food/etc.
+This mod is inspired by [Free and powerful slayer](https://www.nexusmods.com/baldursgate3/mods/764), and [Slayer Form Improvements](https://www.nexusmods.com/baldursgate3/mods/1497).
 
 ## How to install
 
